@@ -2,7 +2,6 @@ package com.ms.email.dtos;
 
 import jakarta.validation.constraints.Email;
 import jakarta.validation.constraints.NotBlank;
-import lombok.Data;
 public record EmailDTO(
         @NotBlank
         String ownerRef,
